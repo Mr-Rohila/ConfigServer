@@ -11,5 +11,10 @@ spring:
 eureka:
   client:
       serviceUrl:
-         defaultZone: http://192.168.1.60:8761/eureka
-  
+         defaultZone: http://192.168.1.60:8761/eureka 
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: G:\HRMS_API\HRMS\app.log  
