@@ -22,7 +22,7 @@ pipeline {
 
  		stage('Copy Jar File') {
             steps {
-                bat "copy /Y target\\Attendance.jar G:\\HRMS_API\\ConfigServer"
+                bat "copy /Y target\\ConfigServer.jar G:\\HRMS_API\\ConfigServer"
             }
         }
     }
