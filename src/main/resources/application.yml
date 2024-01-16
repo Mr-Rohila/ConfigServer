@@ -1,0 +1,16 @@
+server:
+  port: 5050
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Mr-Rohila/HRMS-Config.git
+          clone-on-start: true
+eureka:
+  client:
+      serviceUrl:
+         defaultZone: http://192.168.1.60:8761/eureka;    
+  
